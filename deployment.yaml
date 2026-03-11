@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: myapp:latest
+          image: 616859360734.dkr.ecr.us-east-1.amazonaws.com/flask-eks-app:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
